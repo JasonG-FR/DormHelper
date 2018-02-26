@@ -13,6 +13,10 @@ The program then tries to affect students in the rooms randomly until it finds a
 To evaluate the quality it calculates a happiness score based on the students' requirements :
 A score of 0% means that every student is with one friend (minimum requirement) and a score of 100% means that every students share their room with all the friends the selected.
 
+## Requirements
+Python 3.6+
+Tested on Linux
+
 ## Usage
 ### Help
 `python DormHelper.py -h`
