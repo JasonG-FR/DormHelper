@@ -10,6 +10,9 @@ The minimum requirement is that **everyone is with at least 1 friend**.
 
 The program then tries to affect students in the rooms randomly until it finds a suitable solution. It evaluates the quality of this solution and then continues to look for a better one.
 
+To evaluate the quality it calculates a happiness score based on the students' requirements :
+A score of 0% means that every student is with one friend (minimum requirement) and a score of 100% means that every students share their room with all the friends the selected.
+
 ## Usage
 ### Help
 `python DormHelper.py -h`
@@ -17,6 +20,8 @@ The program then tries to affect students in the rooms randomly until it finds a
 ### Testing 
 #### With random data
 `python DormHelper.py`
+
+![screenshot_random](Random.png)
 
 That will launch the program with 4 rooms and 10 random students :
 * Room 1 : 5 beds
@@ -28,6 +33,8 @@ NB : If the program doesn't find a solution you can try to stop it and launch it
 
 #### With sample datas
 `python DormHelper.py sample_rooms.csv sample_students.csv`
+
+![screenshot_real](Real_Data.png)
 
 ### Using real data
 The program needs 2 files : one that lists the rooms and one that lists the students
