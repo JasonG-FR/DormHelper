@@ -15,6 +15,7 @@ A score of 0% means that every student is with one friend (minimum requirement) 
 
 ## Requirements
 Python 3.6+
+
 Tested on Linux
 
 ## Usage
